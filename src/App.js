@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import WalletBalanceChecker from './components/WalletBalanceChecker';
+import WalletPeek from './components/WalletBalanceChecker';
 
 function App() {
   return (
-    <div className="App">
-      <WalletBalanceChecker/>
+    <div>
+      <WalletPeek/>
     </div>
   );
 }
